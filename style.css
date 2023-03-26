@@ -1,0 +1,170 @@
+.navbar{
+    display: flex;
+    text-align: center
+    
+}
+.mid{
+    position: relative;
+display: flex;
+}
+.centre{ margin-top: 0px;
+    padding: 0px;
+    position: absolute;
+top: 0px;
+left: 100px;
+
+}
+.lefty{
+    top:200px ;
+    position: absolute;
+bottom: 10px;
+left: 15px;
+}
+
+   .btm{
+    position: absolute;
+    padding: 20px;
+    top: 400px;
+    left: 40px;
+   } 
+
+.left {
+    text-align: centre;
+    display: flex;
+    
+    
+}
+.btn{
+    pointer:arrow;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    height: 30px;
+    width: 100px;
+    padding: 10 10 10 10;
+    
+}
+.centre p{ font-size: 1.5rem;
+
+}
+.link{
+    text-decoration: none;
+    padding: 30px;
+}
+.btn :hover{
+background-color: white;
+color:black ;
+
+}
+
+.left img{
+    height: 50px;
+    margin: 10px 10px;
+}
+.head h1{
+    padding: 10px;
+    font-size: 30px;
+    margin-top: 10px;
+    
+}
+
+.middle ul{
+   margin-left: 100px;
+   flex-direction: right;
+    display: flex;
+    list-style: none;
+
+
+}
+.fields{
+    display: list-item;
+}
+#searchbar{
+    margin-top: 15px;
+    border-radius: 15px;
+    
+    padding: 10px;
+    margin-left: 50px;
+
+}
+.list a{
+    font-size: 1.4rem;
+    text-shadow:5px 5px 15px rgb(119, 52, 52) ;
+    color: black;
+}
+.fields{
+    font-size: 1.1em;
+    margin-left: 50px;
+    
+
+}
+#imp{
+    background-color: black;
+position: relative;
+height: auto;
+width: 100%;
+margin-left: 0px;
+}
+img{padding: 0px;
+    margin: 0px;
+    height: auto;
+    width: 100%;
+}
+#imp img{
+    
+    height: 400px;
+    width: 50%;
+    margin-left: 320px;
+}
+.left img{
+    width: 60px;
+}
+.container img{
+    height: 200px;
+    width: 200px;
+    margin-left: 60px;
+    border-radius: 100px;
+   
+
+}
+.container{
+    display: flex;  /* ##### sare vertical div ko side by side place kar diya*/
+}
+.cards{ border-radius: 10px;
+    background-color: rgb(244, 244, 242);
+    margin: 50px;
+    height: 400px;
+    box-shadow: 5px 5px 20px rgb(66, 53, 36);
+    
+}
+.intro{padding: 7px;
+    background-color: rgb(226, 238, 244);
+    font-size: 18px;
+}
+.intro h1{
+    margin-left: 120px;
+}
+.foot h1{
+  margin-left: 550px;
+}
+.feet{
+    background-color: rgb(209, 211, 211);
+    border-radius: 25px;
+    box-shadow: 5px 5px 15px;
+    height: 150px;
+}
+.feet h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ .feet a{
+    text-decoration: none;
+    padding: 150px;
+}
+.feet li{
+
+ list-style-type: none;
+    font-size: 20px;
+    float: left;
+    padding: 10px;
+
+}
